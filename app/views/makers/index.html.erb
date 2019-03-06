@@ -1,0 +1,7 @@
+<h1>They Make The Drinks</h1>
+
+<ul>
+  <% @makers.each do |maker|%>
+    <li><%= maker.name %> - <%= maker.location %></li>
+  <% end %>
+</ul>

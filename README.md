@@ -1,5 +1,7 @@
 # Flat-Drinks
 
+[Video](https://www.youtube.com/watch?v=5gercttGnK8&feature=youtu.be)
+
 ## Setup
 
 Before you begin, fork and clone this repo, run `rake db:migrate` and `rake db:seed` to get started.

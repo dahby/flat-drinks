@@ -21,20 +21,20 @@ makers = [
 
 makers.each {|maker| Maker.create(maker)}
 
-drinks = [
-  { name: "Best Beer" },
-  { name: "Just plain ol' water" },
-  { name: "Concious Cola" },
-  { name: "Whispy Wine" },
-  { name: "Better Bourbon" },
-  { name: "Candid Cider" },
-  { name: "Intense IPA" },
-  { name: "Tasty Tea" },
-  { name: "Killer Kombucha" },
-  { name: "Silly Soda" },
-  { name: "Vicious Vodka" },
-  { name: "Lucious Latte"}
-]
+# drinks = [
+#   { name: "Best Beer" },
+#   { name: "Just plain ol' water" },
+#   { name: "Concious Cola" },
+#   { name: "Whispy Wine" },
+#   { name: "Better Bourbon" },
+#   { name: "Candid Cider" },
+#   { name: "Intense IPA" },
+#   { name: "Tasty Tea" },
+#   { name: "Killer Kombucha" },
+#   { name: "Silly Soda" },
+#   { name: "Vicious Vodka" },
+#   { name: "Lucious Latte"}
+# ]
 
 
 # ---------------
@@ -47,8 +47,8 @@ drinks = [
 # drinks = drinks.map {|drink| drink.merge({ maker_id: Maker.all.sample.id })}
 # ---------------
 
-drinks.each {|drink| Drink.create(drink)}
+# drinks.each {|drink| Drink.create(drink)}
 
-User.create(name: "Chris")
-User.create(name: "David")
-User.create(name: "Niky")
+# User.create(name: "Chris")
+# User.create(name: "David")
+# User.create(name: "Niky")

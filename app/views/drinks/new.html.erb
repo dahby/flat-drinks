@@ -1,0 +1,11 @@
+<h1>New Drink</h1>
+
+<%= form_for @drink do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name%>
+
+  <%= f.label :maker_id %>
+  <%= f.collection_radio_buttons :maker_id, Maker.all, :id, :name%>
+
+  <%= f.submit %>
+<% end %>
